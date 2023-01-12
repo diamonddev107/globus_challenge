@@ -1,0 +1,5 @@
+[flake8]
+# this is a basic "black" codestyle compatible flake8 config
+# see: https://black.readthedocs.io/en/stable/compatible_configs.html#flake8
+max-line-length = 88
+extend-ignore = E203, W503

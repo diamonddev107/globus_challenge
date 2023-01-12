@@ -1,0 +1,15 @@
+How to run the service app (will be available at localhost port 5000):
+
+from the command line:
+make run
+
+
+File descriptions:
+
+README - short descriptions of each file and instructions for running the service
+Makefile - simple Makefile to interact with provided example code
+app.py - example code for a Flask application
+auth.py - mock auth service with hard coded user and token information.
+db.py - example code for a SQLite database
+requirements.txt - list of python requirements to be installed via pip
+test_client.py - example code for a requests based test client. We encourage you to add tests, but they are not required
